@@ -18,7 +18,7 @@ jobs:
     # Add the upstream repository
     - name: Add Upstream Repository
       run: |
-        git remote add upstream https://github.com/Lifes-A-Glitch/alexcv.lifesaglitch.io.gitt
+        git remote add upstream https://github.com/Lifes-A-Glitch/alexcv.lifesaglitch.io.git
         git fetch upstream
 
     # Sync the fork with the upstream repository
